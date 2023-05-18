@@ -4,7 +4,7 @@ body {background-image: url(../imagenes/fondo.jpg );
   background-size: cover;
   font-size: large}
 img{width:270px;height: 480}
-h1{color:pink;font-style:italic;text-decoration: underline;}
+h1{color:pink;font-style:italic;text-decoration: underline;text-align: center;}
 h3{text-decoration: underline;}
-
+ol{text-align: justify;}
 .uno{color: pink}
