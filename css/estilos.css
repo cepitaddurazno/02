@@ -1,39 +1,54 @@
-body{background-image: url(../imagenes/fondo.jpg );
-  background-position: 50% 50%;
+body{background-image: url(../imagenes/fondo.jpg);
+  background-position: 50% 50% ;
   background-attachment: fixed;
   background-size: cover;
   font-size: large}
+
+  header{background-position: top;
+    background-image: url(../imagenes/header.png);
+    background-repeat: repeat-x;
+    margin-left:70px;
+    margin-right: 70px;}
 
 h1{color: #29665C;
   font-style:faustina;
   text-align: center;}
 
-img{width:270px;height: 130px}
+.mochis{width:25%;}
 
-.whatsapp img {position: fixed;
+.redes{background-color: #4C5B3E;
+  margin-top:30px;
+  margin-right: 60px;
+  margin-bottom: 20px}
+
+.redesfooter{background-color:#CD5C5C;
+  margin-top:30px;
+  margin-bottom: 30px}
+
+.logo{width: 100px;
+  height: 100px}
+
+.whatsapp{position: fixed;
   bottom: 40px;
   right: 60px;
   width:60px;
   height:60px;}
+
+.uno{color: #CD5C5C}
+
+.casa{width: 180px; height: 110px}
 
 h2{color: #CD5C5C}
 
 h3{text-decoration: underline;}
 
 ol{text-align: justify;}
-.uno{color: #CD5C5C}
 
 main{background-color: #FFECEB;
   padding: 70px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-right: 50px}
 
-header{background-position: top;
-  background-image: url(../imagenes/header.png);
-  background-repeat: repeat-x;
-  margin-left: 90px ;
-  margin-right: 90px}
+  aside{}
 
-  nav{display: flex;}
-
-footer img{width:48px;height:48px;}
+footer{background-color:#FFECEB;padding: 2%;}
