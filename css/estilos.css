@@ -2,31 +2,38 @@ body{background-image: url(../imagenes/fondo.jpg);
   background-position: 50% 50% ;
   background-attachment: fixed;
   background-size: cover;
-  font-size: large}
+  font-size: 1rem;
+  font-family: 'Caveat', cursive;}
 
-  header{background-position: top;
+header{background-position: top;
     background-image: url(../imagenes/header.png);
     background-repeat: repeat-x;
     margin-left:70px;
     margin-right: 70px;}
 
-h1{color: #29665C;
-  font-style:faustina;
-  text-align: center;}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@font-face {font-family: "titulo";
+  src: url("../fonts/BELL.TTF") format("truestyle")}
+
+h1{color: #29665B;
+font-family:"titulo";
+font-size: 2rem;
+padding-top: 1.5%}
 
 .mochis{width:25%;}
 
 .redes{background-color: #4C5B3E;
   margin-top:30px;
-  margin-right: 60px;
   margin-bottom: 20px}
 
 .redesfooter{background-color:#CD5C5C;
-  margin-top:30px;
+  margin-top:70px;
   margin-bottom: 30px}
 
-.logo{width: 100px;
-  height: 100px}
+.logo{width: 10%;
+  height: 10%}
 
 .whatsapp{position: fixed;
   bottom: 40px;
@@ -36,7 +43,7 @@ h1{color: #29665C;
 
 .uno{color: #CD5C5C}
 
-.casa{width: 180px; height: 110px}
+.casa{height:auto;}
 
 h2{color: #CD5C5C}
 
@@ -48,7 +55,5 @@ main{background-color: #FFECEB;
   padding: 70px;
   margin-left: 50px;
   margin-right: 50px}
-
-  aside{}
 
 footer{background-color:#FFECEB;padding: 2%;}
