@@ -12,7 +12,8 @@ header{background-position: top;
     margin-right: 70px;}
 
     @media (max-width: 380px){
-    header {background-color:#FFECEB }
+    header {background-repeat: repeat-y;
+      background-color:#FFECEB }
     }
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
