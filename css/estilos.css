@@ -11,6 +11,9 @@ header{background-position: top;
     margin-left:70px;
     margin-right: 70px;}
 
+    @media (max-width: 380px){
+    header {background-color:#FFECEB }
+    }
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
@@ -32,8 +35,7 @@ padding-top: 1.5%}
   margin-top:70px;
   margin-bottom: 30px}
 
-.logo{width: 10%;
-  height: 10%}
+.logo{width: 10%;}
 
 .whatsapp{position: fixed;
   bottom: 40px;
@@ -47,13 +49,15 @@ padding-top: 1.5%}
 
 h2{color: #CD5C5C}
 
+nav{background-color:#CD5C5C}
+
 h3{text-decoration: underline;}
 
 ol{text-align: justify;}
 
 main{background-color: #FFECEB;
-  padding: 70px;
-  margin-left: 50px;
-  margin-right: 50px}
+  padding: 7%;
+  margin-left: 3%;
+  margin-right: 3%}
 
 footer{background-color:#FFECEB;padding: 2%;}
